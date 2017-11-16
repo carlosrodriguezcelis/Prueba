@@ -12,6 +12,7 @@ namespace Prueba.WebAPI
         public string apellido { get; set; }
 
         public string direccion { get; set; }
+        public int telef { get; set; }
         public int Edad(DateTime fechaNacimiento)
         {
             var resultado = DateTime.Today.Year - fechaNacimiento.Year;
