@@ -8,9 +8,7 @@ namespace Prueba.WebAPI
     public class Persona
     {
         public string nombre { get; set; }
-
         public string apellido { get; set; }
-
         public string direccion { get; set; }
         public int telef { get; set; }
         public int Edad(DateTime fechaNacimiento)
